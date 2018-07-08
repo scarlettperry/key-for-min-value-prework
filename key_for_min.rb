@@ -9,8 +9,8 @@ ikea = {
 
 
 def key_for_min_value(name_hash)
-lowest_value = nil 
-item_name = " "
+lowest_value = nil
+item_name = nil 
 
   name_hash.each do |key, int|
     if lowest_value == nil || int < lowest_value 
